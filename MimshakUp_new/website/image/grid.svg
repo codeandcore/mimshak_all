@@ -1,0 +1,43 @@
+<svg width="752" height="751" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter x="-15.8%" y="-15.8%" width="131.5%" height="131.5%" filterUnits="objectBoundingBox" id="a">
+            <feGaussianBlur stdDeviation="30" in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g transform="translate(90.216 90)" fill="none" fill-rule="evenodd">
+        <circle opacity=".4" filter="url(#a)" transform="matrix(0 -1 1 0 0 571)" cx="285.5" cy="285.5" r="285.5"/>
+        <g opacity=".2" stroke="#FFF" stroke-linecap="round" stroke-width="2">
+            <path d="M523.5 24.5v482m-77-482v482m-77-482v482m-77-482v482m-77-482v482m-77-482v482m-77-482v482M51.5 34.5h482m-482 77h482m-482 77h482m-482 77h482m-482 77h482m-482 77h482m-482 77h482"/>
+        </g>
+        <g opacity=".4" transform="translate(55 28)" fill="#F4F6FA">
+            <rect width="12" height="13.333" rx="4"/>
+            <rect y="462" width="12" height="13.333" rx="4"/>
+            <rect x="77" width="12" height="13.333" rx="4"/>
+            <rect x="77" y="462" width="12" height="13.333" rx="4"/>
+            <rect x="154" width="12" height="13.333" rx="4"/>
+            <rect x="154" y="462" width="12" height="13.333" rx="4"/>
+            <rect x="231" width="12" height="13.333" rx="4"/>
+            <rect x="231" y="462" width="12" height="13.333" rx="4"/>
+            <rect x="309" width="12" height="13.333" rx="4"/>
+            <rect x="309" y="462" width="12" height="13.333" rx="4"/>
+            <rect x="386" width="12" height="13.333" rx="4"/>
+            <rect x="386" y="462" width="12" height="13.333" rx="4"/>
+            <rect x="463" width="12" height="13.333" rx="4"/>
+            <g transform="translate(463 77)">
+                <rect width="12" height="13.333" rx="4"/>
+                <rect y="77" width="12" height="13.333" rx="4"/>
+                <rect y="155" width="12" height="13.333" rx="4"/>
+                <rect y="229" width="12" height="13.333" rx="4"/>
+                <rect y="310" width="12" height="13.333" rx="4"/>
+            </g>
+            <g transform="translate(0 77)">
+                <rect width="12" height="13.333" rx="4"/>
+                <rect y="77" width="12" height="13.333" rx="4"/>
+                <rect y="155" width="12" height="13.333" rx="4"/>
+                <rect y="229" width="12" height="13.333" rx="4"/>
+                <rect y="310" width="12" height="13.333" rx="4"/>
+            </g>
+            <rect x="463" y="462" width="12" height="13.333" rx="4"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,128 @@
+<svg width="247" height="254" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter x="-25%" y="-18%" width="150%" height="145%" filterUnits="objectBoundingBox" id="a">
+            <feOffset dy="9" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="13.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-19%" y="-17%" width="138%" height="147.6%" filterUnits="objectBoundingBox" id="c">
+            <feOffset dy="9" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="9" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-53.2%" y="-47%" width="206.3%" height="231.7%" filterUnits="objectBoundingBox" id="e">
+            <feOffset dy="9" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="9" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-39.8%" y="-22.3%" width="179.6%" height="162.5%" filterUnits="objectBoundingBox" id="g">
+            <feOffset dy="9" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="9" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-51.5%" y="-166.7%" width="203%" height="566.7%" filterUnits="objectBoundingBox" id="i">
+            <feOffset dy="9" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="9" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-194.6%" y="-416.7%" width="489.2%" height="1266.7%" filterUnits="objectBoundingBox" id="k">
+            <feOffset dy="9" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="9" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-92.2%" y="-416.7%" width="284.4%" height="1266.7%" filterUnits="objectBoundingBox" id="m">
+            <feOffset dy="9" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="9" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-51.5%" y="-500%" width="203%" height="1500%" filterUnits="objectBoundingBox" id="o">
+            <feOffset dy="9" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="9" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter color-interpolation-filters="auto" id="q">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.227451 0 0 0 0 0.290196 0 0 0 0 0.400000 0 0 0 1.000000 0"/>
+        </filter>
+        <filter x="-53.2%" y="-47%" width="206.3%" height="231.7%" filterUnits="objectBoundingBox" id="r">
+            <feOffset dy="9" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="9" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter color-interpolation-filters="auto" id="t">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.227451 0 0 0 0 0.290196 0 0 0 0 0.400000 0 0 0 1.000000 0"/>
+        </filter>
+        <filter color-interpolation-filters="auto" id="u">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.227451 0 0 0 0 0.290196 0 0 0 0 0.400000 0 0 0 1.000000 0"/>
+        </filter>
+        <rect id="b" x="0" y="0" width="179.838" height="200" rx="12.6"/>
+        <rect id="d" x="0" y="0" width="165.646" height="132.3" rx="12.6"/>
+        <rect id="f" x="96.213" y="23.4" width="59.263" height="47.849" rx="12.6"/>
+        <rect id="h" x="8.63" y="23.774" width="79.129" height="100.8" rx="12.6"/>
+        <rect id="j" x="18.521" y="34.574" width="61.145" height="13.5" rx="6.75"/>
+        <rect id="l" x="12.226" y="9.374" width="16.185" height="5.4" rx="2.7"/>
+        <rect id="n" x="121.39" y="9" width="34.169" height="5.4" rx="2.7"/>
+        <rect id="p" x="18.521" y="109.274" width="61.145" height="4.5" rx="2.25"/>
+        <rect id="s" x="95.769" y="78.414" width="59.263" height="47.849" rx="12.6"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g opacity=".7" transform="translate(27.216 18)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="#FFF" xlink:href="#b"/>
+        </g>
+        <g opacity=".6" transform="translate(62.57 53.1)">
+            <use fill="#000" filter="url(#c)" xlink:href="#d"/>
+            <use fill="#65FAB0" xlink:href="#d"/>
+        </g>
+        <g opacity=".1" transform="translate(62.57 53.1)">
+            <use fill="#000" filter="url(#e)" xlink:href="#f"/>
+            <use fill="#3A4A66" xlink:href="#f"/>
+        </g>
+        <g opacity=".1" transform="translate(62.57 53.1)">
+            <use fill="#000" filter="url(#g)" xlink:href="#h"/>
+            <use fill="#3A4A66" xlink:href="#h"/>
+        </g>
+        <g opacity=".1" fill="#000" transform="translate(62.57 53.1)">
+            <use filter="url(#i)" xlink:href="#j"/>
+            <use xlink:href="#j"/>
+        </g>
+        <g opacity=".1" fill="#000" transform="translate(62.57 53.1)">
+            <use filter="url(#k)" xlink:href="#l"/>
+            <use xlink:href="#l"/>
+        </g>
+        <g opacity=".1" fill="#000" transform="translate(62.57 53.1)">
+            <use filter="url(#m)" xlink:href="#n"/>
+            <use xlink:href="#n"/>
+        </g>
+        <g opacity=".1" fill="#000" transform="translate(62.57 53.1)">
+            <use filter="url(#o)" xlink:href="#p"/>
+            <use xlink:href="#p"/>
+        </g>
+        <g filter="url(#q)" transform="translate(62.57 53.1)">
+            <g transform="translate(27.59 57.6)" stroke="#000">
+                <path stroke-width="1.8" d="M3.597 3.6h35.068v35.1H3.597z"/>
+                <rect stroke-width=".9" fill="#000" x="35.068" width="6.294" height="6.3" rx="1.8"/>
+                <rect stroke-width=".9" fill="#000" x="35.068" y="35.1" width="6.294" height="6.3" rx="1.8"/>
+                <rect stroke-width=".9" fill="#000" width="6.294" height="6.3" rx="1.8"/>
+                <rect stroke-width=".9" fill="#000" y="35.1" width="6.294" height="6.3" rx="1.8"/>
+            </g>
+        </g>
+        <g opacity=".1" transform="translate(62.57 53.1)">
+            <use fill="#000" filter="url(#r)" xlink:href="#s"/>
+            <use fill="#3A4A66" xlink:href="#s"/>
+        </g>
+        <g filter="url(#t)" transform="translate(62.57 53.1)">
+            <g transform="translate(112.63 93.6)">
+                <rect fill="#000" x="10.692" width="5.081" height="5.226" rx="2.541"/>
+                <rect fill="#000" x="16.338" y="6.387" width="5.081" height="5.226" rx="2.541"/>
+                <rect fill="#000" x="5.046" y="12.774" width="5.081" height="5.226" rx="2.541"/>
+                <path stroke="#000" stroke-width="1.8" stroke-linecap="round" d="M24.431 2.613H.611M24.431 9H.611M24.66 15.3H.382"/>
+            </g>
+        </g>
+        <g filter="url(#u)" transform="translate(62.57 53.1)">
+            <path d="m104.703 126.214-23.696-23.4a.748.748 0 0 0-.807-.158.731.731 0 0 0-.457.675v33.638a.732.732 0 0 0 .74.731c.212 0 .42-.09.561-.256l8.666-9.981h14.469c.299 0 .57-.179.684-.452a.723.723 0 0 0-.16-.797z" fill="#000" fill-rule="nonzero"/>
+        </g>
+        <text opacity=".2" font-family="Assistant-Bold, Assistant" font-size="14.4" font-weight="bold" fill="#000001" transform="translate(62.57 53.1)">
+                            <tspan x="111.101" y="44.7">CMS</tspan>
+                        </text>
+    </g>
+</svg>

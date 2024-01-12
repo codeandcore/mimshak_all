@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="he">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=1024">
+        <title>Mimshakup</title>
+        <link rel="icon" type=" image/ico" href=" image/favicon.ico" /> 
+        <link rel="mask-icon" href=" image/favicon.ico" color="white">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+        <link rel="stylesheet" type="text/css" href="css/scss/main/catalog.css">
+        <link rel="stylesheet" type="text/css" href="css/scss/main/chat.css">
+
+    </head>
+
+    <body class="mimsha_body">
+        <div class="loader" id="loadingDiv">
+            <img src="image/logo_loader.svg" alt="logo">
+             <span></span>
+             <span></span>
+             <p class="botom_loader_text">הדף בטעינה. אפשר להמתין או ללחוץ <a href="#">כאן</a> להמשך</p>
+         </div>
+
+        <section>
+            <header class="head_main">
+                <div class="container container_bg_remove">
+                    <div class="d-flex align-items-center justify-content-between head_in ">
+                        <div class="head_rht">
+                            <div class="logo">
+                                <a href="#"><img src=" image/menu.svg" alt="menu"></a>
+                                <a href="#"><img src=" image/logo.svg" alt="logo"></a>
+                                <div class="menu_out">
+                                    <ul class="menu">
+                                        <li><a href="dashboard.html" class=""><img src=" image/layout.svg" class="off"><img
+                                                                                                                            src=" image/layoutblue.svg" class="on"><span>ראשי</span></a></li>
+                                        <li><a href="myclass_normal.html"><img src=" image/menuuser.svg" class="off"><img
+                                                                                                                          src=" image/menuuserblue.svg" class="on"><span>הכיתות שלי</span></a></li>
+                                        <li><a href="myunits.html" class="active"><img src=" image/playbtn.svg" class="off"><img src=" image/Group.svg"
+                                                                                                                                 class="on"><span>היחידות שלי</span></a></li>
+                                        <li><a href="catalog.html"><img src=" image/Combined Shape.svg" class="off"><img
+                                                                                                                         src=" image/combined blue.svg" class="on"><span>קטלוג יחידות</span></a>
+                                        </li>
+                                        <li class="menuplus"><a href="#"><i><img src=" image/plus.svg"></i><span>יצירת יחידה
+                                            חדשה</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span>הפרופיל שלי</span>
+                        </div>
+                        <div class="head_lft d-flex align-items-center">
+                            <ul class="head_lft_first">
+                                <li><a href="catalog.html"><img src=" image/Combined Shape.svg" alt="Shape"><span>קטלוג
+                                    יחידות</span><i class="count">1</i></a></li>
+                                <li><a href="#"><img src=" image/minimize.svg" alt="search"></a></li>
+                                <li><a href="#"><img src=" image/bell.svg" alt="shape"></a></li>
+                                <li class="chat-button"><a href="javascript:void(0)"><img src=" image/Shape.svg" alt="shape"></a></li>
+                            </ul>
+                            <ul class="user">
+                                <li><a href="#"><img src=" image/user.svg" alt="user" class="user_img"><span>עדייה
+                                    וולק</span><img src=" image/arrow-right.svg" alt="arrow"></a></li>
+                                    <div class="user_menu">
+                                        <a href="profile_teacher.html">
+                                        <img src="image/uk1.svg" alt="">
+                                        <img src="image/uk1h.svg" alt="">
+                                        <span>הפרופיל שלי</span> 
+                                        </a>
+                                        <a href="../admin/admin_main.html">
+                                            <img src="image/uk2.svg" alt="">
+                                            <img src="image/uk2h.svg" alt="">
+                                            <span>ניהול והגדרות</span> 
+                                            </a>
+                                        <a href="../website/index.html">
+                                            <img src="image/uk3.png" alt="">
+                                            <img src="image/uk3h.png" alt="">
+                                            <span> התנתקות </span> 
+                                        </a>
+                                    </div> 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="container container_bg_remove">
+                <section class="main d-flex justify-content-between align-items-start flex-wrap profile_page p-0">
+                    <div class="right_col right_col_admin">
+                        <span class="img_icon">
+                            <img src="image/te_smile_icon.svg" alt=""> 
+                        </span>
+                        <h2>אורנה וילניץ’</h2>
+                        <h5>מורה</h5>
+                        <p>ביהס כצנלסון</p>
+                    </div>
+                    <div class="left_col">
+                        <div class="admin_title  d-flex justify-content-between align-items-center admin_user">
+                            <!-- <h1 class="d-flex align-items-center"><a href="admin_user_detail.html" title="" class="arrow_back"><img src="image/arrow-back.svg" alt="arrow"></a> הראל רובינזון</h1> -->
+                            <h4>פרטי משתמש</h4>
+                            <div>
+                                <a href="#" title="" class="btn gray_btn">ביטול</a>
+                                <a href="profile_teacher.html" title="" class="btn lite_green_btn mr-2">שמירת שינויים</a>
+                            </div>
+                        </div>
+                        <div class="admin_class_edit common_form admin_user">
+                            <!-- <h4>פרטי משתמש</h4> -->
+                            <div class="common_form_wrap_2 w-100 ">
+                                <div class="form_main">
+                                    <label class="label_main">שם פרטי</label>
+                                    <input type="text" value="אורנה">
+                                </div>
+                                <div class="form_main">
+                                    <label class="label_main">שם משפחה</label>
+                                    <input type="text" value="וילניץ’">
+                                </div>
+                            </div>
+                            <div class="common_form_wrap_2 w-100">
+                                <div class="form_main">
+                                    <label class="label_main">תפקיד</label>
+                                    <input type="text" value="מורה">
+                                </div>
+                                <div class="form_main">
+                                    <label class="label_main">משוייך ל</label>
+                                    <input type="text" value="כיתה ב1, כיתה ב2, כיתה ב3">
+                                </div>
+                            </div>
+                            <div class="common_form_wrap_2 w-100">
+                                <div class="form_main">
+                                    <label class="label_main">שם משתמש (באנגלית)</label>
+                                    <input type="text" value="Username">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="admin_class_edit common_form admin_user">
+                            <div class="common_form_wrap_2 w-100">
+                                <div class="form_main form_main_full">
+                                    <label class="label_main">כמה מילים שיופיעו לצד הפרופיל שלך (לא חובה)</label>
+                                    <input type="text" value="לכל אדם בעולם הזה יש את הדרך הייחודית לו…">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="admin_class_edit common_form admin_user" style="margin-top: 30px;">
+                            <h4>פרטי התקשרות</h4>
+                            <div class="common_form_wrap_2 w-100">
+                                <div class="form_main">
+                                    <label class="label_main">טלפון</label>
+                                    <input type="text" value="052 5236567">
+                                </div>
+                                <div class="form_main">
+                                    <label class="label_main">דוא”ל </label>
+                                    <input type="text" value="harel@gmail.com">
+                                </div>
+                            </div>
+                            <div class="common_form_wrap_2 w-100">
+                                <div class="form_main">
+                                    <label class="label_main">כתובת</label>
+                                    <input type="text" value="ורדיה 61">
+                                </div>
+                                <div class="form_main">
+                                    <label class="label_main">עיר</label>
+                                    <input type="text" value="חיפה">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="admin_class_edit common_form admin_user" style="margin-top: 30px;">
+                            <h4>סיסמת משתמש</h4>
+                            <div class="common_form_wrap_2 w-50">
+                                <div class="form_main w-100">
+                                    <label class="label_main">סיסמה נוכחית</label>
+                                    <input type="password" value="••••••••••••">
+                                </div>                                
+                                <div class="form_main w-100">
+                                    <label class="label_main">סיסמה חדשה</label>
+                                    <input type="password" value="">
+                                </div>                                
+                                <div class="form_main w-100">
+                                    <label class="label_main">חזרה על סיסמה חדשה</label>
+                                    <input type="password" value="">
+                                </div>
+                                <div class="form_main w-100 my-2">
+                                    <a href="#" class="btn_change">עדכון סיסמה</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="course_activities">
+                        <ul class="d-flex justify-content-start align-items-center flex-wrap">
+                            <li><a href="javascript:void(0)">התחברות בתור הראל רובינזון</a></li>
+                            <li><a href="javascript:void(0)">דוח ציונים</a></li>
+                            <li><a href="javascript:void(0)">התחברות בתור הראל רובינזון</a></li>                            
+                            <li><a href="javascript:void(0)">פעילות בקורסים</a></li>
+                            <li><a href="javascript:void(0)">דוח שימוש במערכת</a></li>
+                            <li><a href="javascript:void(0)">השהיית משתמש</a></li>                            
+                            <li><a href="javascript:void(0)">משימות שנעשו</a></li>
+                            <li><a href="javascript:void(0)">פעילות בצ’אט</a></li>                                                                                                                                                                                                    
+                        </ul>
+                    </div> -->
+                </section>
+            </div>
+        </section>
+
+        <footer>
+            <div class="containe container_bg_remover">
+                <div class="foot d-flex align-items-center justify-content-between">
+                    <div class="foot_rht">
+                        <p>כל הזכויות שמורות © ממשק טכנולוגיות לימודיות בע מ</p>
+                    </div>
+                    <div class="foot_mid">
+                        <a href="#">פרטיות.</a> <a href="#"> תקנון שימוש</a>
+                    </div>
+                    <div class="foot_lft">
+                        <p>מדריך שימוש במערכת</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Modal -->
+        <div class="modal fade" id="AddToClass" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <a href="javascript:void(0)" data-dismiss="modal"><img src=" image/close.svg" alt="close"></a>
+                    <div class="adding_res">
+                        <h2>הוספת יחידה לכיתה ב’3</h2>
+                        <div class="white_strip">
+                            <div class="catalog_con d-flex align-items-center p-0">
+                                <img src=" image/catalog3.png" style="width: 100px;">
+                                <div class="catalog_in">
+                                    <h4>תקשורת בעלי חיים</h4>                                    
+                                    <p><span>תחום:</span>מדעים</p>
+                                    <p class="m-0"><span>רמה:</span>א, ב, ג</p>
+                                </div>
+                            </div>
+                            <div class="checkmark"><img src=" image/checkmark.svg" alt="check"></div>
+                        </div>
+                        <div class="white_strip white_con classdrop">
+                            <p class="d-flex align-items-center justify-content-between"><span>לאיזה מקצוע ברצונך להוסיף את היחידה?</span><img src=" image/arrow-right.svg"class="arrow"></p> 
+                            <ul>
+                                <li>תורה</li>
+                                <li>חשבון</li>
+                                <li>גיאוגרפיה</li>
+                                <li>אזרחות</li>
+                                <li>ספרות</li>
+                            </ul>
+                        </div>
+                        <div class="white_strip white_con disabledcontent">
+                            <p><span>לאיזה נושא משוייכת היחידה?</span></p><img src=" image/arrow-right.svg" class="arrow">
+                        </div>
+                        <div class="checkdiv disabledcontent">
+                            <input type="checkbox" id="modalcheck" class="check_in" disabled>
+                            <label for="modalcheck" class="checklabel">
+                                <div class="check"></div> <i>יצירת נושא חדש</i>
+                            </label>
+                        </div>
+                        <div class="grade_btn d-flex align-items-center justify-content-end">
+                            <button type="button" class="plan_btn">ביטול</button>
+                            <button type="button" class="blue_btn">הוספת יחידה</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="share_unit" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <a href="javascript:void(0)" data-dismiss="modal"><img src=" image/close.svg" alt="close"></a>
+                    <div class="adding_res">
+                        <h2>שיתוף יחידה</h2>
+                        <div class="white_strip">
+                            <div class="catalog_con d-flex align-items-center p-0">
+                                <img src=" image/catalog3.png" style="width: 100px;">
+                                <div class="catalog_in">
+                                    <h4>תקשורת בעלי חיים</h4>
+                                    <p><span>תחום:</span>מדעים</p>
+                                    <p class="m-0"><span>רמה:</span>א, ב, ג</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="link_strip d-flex align-items-center justify-content-between">
+                            <a href="javascript:void(0)" class="copy_link"><span><img src=" image/link.svg"
+                                                                                      alt="link"></span>לחצו להעתקת הקישור</a>
+                            <button class="blue_btn green_btn"><img src=" image/tick-green.svg">הקישור הועתק</button>
+                        </div>
+                        <div class="d-flex align-items-end">
+                            <div class="link_strip link_strip2">
+                                <span><img src=" image/email.svg" alt="link"></span>
+                                <input type="mail" class="input_field" placeholder="הוסף דוא”ל לשליחה">
+                            </div>
+                            <button class="blue_btn sending_mail">שליחה</button>
+                            <button class="blue_btn green_btn"><img src=" image/tick-green.svg"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="alert" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <a href="javascript:void(0)" data-dismiss="modal"><img src=" image/close.svg" alt="close"></a>
+                    <div class="adding_res text-center">
+                        <h2>רגע, רגע..</h2>
+                        <p>האם ברצונך להסיר את הנושא?</p>
+                        <div class="grade_btn d-flex align-items-center justify-content-center">
+                            <button type="button" class="plan_btn">ביטול</button>
+                            <button type="button" class="blue_btn">הסר</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- chat sidebar -->
+        <div class="chat_main">
+            <div class="chat-header">
+                <div class="top-bar">
+                    <ul class="wall_list d-flex align-items-center justify-content-between">
+                        <li class="dropdown status"><a href="javascript:void(0)" class="statustext"><b
+                                                                                                    class="statuswrite">אנגלית</b> <img src="image/arrow-right.svg" alt="arrow"></a>
+                            <ul class="status_list">
+                                <li>אנגלית</li>
+                                <li>חשבון</li>
+                                <li>עברית</li>
+                                <li>תנך</li>
+                            </ul>
+                        </li>
+                        <li class="blue_res">
+                            <div class="chat-close">
+                                <img src="image/close.svg" alt="icon">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bottom-bar">
+                    <ul class="align-items-center justify-content-between">
+                        <li class="search"><input type="text" placeholder="חיפוש בצ’אט">
+                            <img src="image/search.svg" alt="search">
+                        </li>
+                        <li>
+                            <a href="#" title="" class="blue_btn">
+                                <img src="image/chat_blue.svg" alt="icon">
+                                פנייה למורה
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="chat-back">
+                        <span>
+                            <img src="image/black-arrow-right.svg" alt="icon">
+                        </span>
+                        אורנה וילניץ’
+
+                    </div>
+                </div>
+            </div>
+            <div class="chat-accordion">
+                <div id="chat_accordion">
+                    <div class="chat_accord">
+                        <div class="chat_accord_head d-flex align-items-center justify-content-between active accord_open">
+                            <h2>כיתתי</h2>
+                            <ul class="side_anc">
+                                <li><a href="#"></a><a href="javascript:void(0)" class="open_arrow active"><img
+                                                                                                                src="image/arrow-right.svg" alt="arrow"></a></li>
+                            </ul>
+                        </div>
+                        <div class="chat_accord_body body_open" >
+                            <ul>
+                                <li>
+                                    <span class="chat-time">שישי 22.10 </span>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="chat-profile d-flex align-items-center">
+                                            <figure class="two-icon">
+                                                <img src="image/blue_smile.svg" alt="icon">
+                                                <img src="image/smile-icon.svg" alt="icon">
+                                            </figure>
+                                            <div class="info-main">
+                                                <h3>כל הכיתה</h3>
+                                                <p>אורנה: שבת שלום לכולם</p>
+                                            </div>
+                                        </div>
+                                        <a href="javascript:void(0)"><img src="image/gray-arrow.svg" alt="arrow"></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="chat_accord">
+                        <div class="chat_accord_head d-flex align-items-center justify-content-between">
+                            <h2>קבוצתי</h2>
+                            <ul class="side_anc">
+                                <li><a href="#"></a><a href="javascript:void(0)" class="open_arrow active"><img
+                                                                                                                src="image/arrow-right.svg" alt="arrow"></a></li>
+                            </ul>
+                        </div>
+                        <div class="chat_accord_body" >
+                            <ul>
+                                <li>
+                                    <span class="chat-time">שישי 22.10 </span>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="chat-profile d-flex align-items-center">
+                                            <figure class="two-icon">
+                                                <img src="image/blue_smile.svg" alt="icon">
+                                                <img src="image/blue_smile.svg" alt="icon">
+                                            </figure>
+                                            <div class="info-main">
+                                                <h3>קבוצת Present simple</h3>
+                                                <p>רני: ברוכים הבאים לקבוצה המנצחת</p>
+                                            </div>
+                                        </div>
+                                        <a href="javascript:void(0)"><img src="image/gray-arrow.svg" alt="arrow"></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="chat-time">שישי 22.10 </span>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="chat-profile d-flex align-items-center">
+                                            <figure class="two-icon">
+                                                <img src="image/blue_smile.svg" alt="icon">
+                                                <img src="image/blue_smile.svg" alt="icon">
+                                            </figure>
+                                            <div class="info-main">
+                                                <h3>אנגלית העשרה</h3>
+                                                <p>אורנה: אם יש שאלות אני זמינה</p>
+                                            </div>
+                                        </div>
+                                        <a href="javascript:void(0)"><img src="image/gray-arrow.svg" alt="arrow"></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="chat_accord">
+                        <div class="chat_accord_head d-flex align-items-center justify-content-between">
+                            <h2>אישי <i class="count">2</i></h2>
+                            <ul class="side_anc">
+                                <li><a href="#"></a><a href="javascript:void(0)" class="open_arrow active"><img
+                                                                                                                src="image/arrow-right.svg" alt="arrow"></a></li>
+                            </ul>
+                        </div>
+                        <div class="chat_accord_body" >
+                            <ul>
+                                <li>
+                                    <span class="chat-time">שישי 22.10 </span>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="chat-profile d-flex align-items-center">
+                                            <figure>
+                                                <img src="image/smile-icon.svg" alt="icon">
+                                            </figure>
+                                            <div class="info-main">
+                                                <h3>אורנה וילניץ’</h3>
+                                                <p>הי דני, רציתי לראות אם יש לך שאלות בנוגע לתרגיל</p>
+                                            </div>
+                                        </div>
+                                        <a href="javascript:void(0)">
+                                            <img src="image/gray-arrow.svg" alt="arrow">
+                                            <i class="count">1</i>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="chat-time">שישי 22.10 </span>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="chat-profile d-flex align-items-center">
+                                            <figure>
+                                                <img src="image/blue_smile.svg" alt="icon">
+                                            </figure>
+                                            <div class="info-main">
+                                                <h3>אורן סוויסה</h3>
+                                                <p>הי דני, הצלחת לענות על שאלה 2?</p>
+                                            </div>
+                                        </div>
+                                        <a href="javascript:void(0)">
+                                            <img src="image/gray-arrow.svg" alt="arrow">
+                                            <i class="count">1</i>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-screen"> 
+                    <section class="msger chat-list">              
+                        <main class="msger-chat">
+                            <div class="msg left-msg">
+                                <div class="msg-img"></div>
+                                <div class="msg-bubble"></div>
+                            </div>
+
+                            <div class="msg right-msg">
+                                <div class="msg-img"></div>
+                                <div class="msg-bubble"></div>
+                            </div>
+                        </main>
+
+                        <form class="msger-inputarea write_msg">
+                            <input type="text" class="msger-input" placeholder="הודעתך כאן">  
+                            <button type="submit" class="msger-send-btn"><img src="image/send.png" alt="icon"></button>
+                        </form>
+                    </section>
+                </div> 
+            </div>
+        </div>
+        <!-- chat sidebar end -->
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src=" js/bootstrap.min.js"></script>
+        <script src=" js/owl.carousel.min.js"></script>
+        <script src=" js/jquery.matchHeight-min.js"></script>
+        <script src=" js/custom.js"></script>
+        <script>
+            /* Match title height */
+            function MatchHeight() {
+                $('.same_height').matchHeight({});
+            }
+            $(document).ready(function() {
+                MatchHeight(); 
+            });
+        </script>
+    </body>
+
+</html>

@@ -1,0 +1,33 @@
+/**
+  * Includes
+  */
+
+/* Vendors Components */
+@import "../vendors/bootstrap.min";
+@import "../vendors/owl.carousel";
+/* Vendors Components */
+
+  
+/* Common Components */
+@import "fonts";
+@import "loader";
+@import "var";
+@import "typo";
+/* Common Components */
+
+/* Header Footer Components */
+@import "header";
+@import "footer";
+/* Header Footer Components */
+
+/* Pages Components */
+@import "./components/home";
+@import "./components/catalog";
+@import "./components/vision";
+@import "./components/login";
+@import "./components/forgot";
+@import "./components/register";
+@import "./components/register_sent";
+@import "./components/thankyou";
+/* Pages Components*/
+

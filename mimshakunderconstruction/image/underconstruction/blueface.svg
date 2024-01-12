@@ -1,0 +1,17 @@
+<svg width="209" height="206" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="a">
+            <stop stop-color="#4BCFFA" offset="0%"/>
+            <stop stop-color="#FFF" offset="100%"/>
+        </linearGradient>
+        <filter x="-70.3%" y="-68.2%" width="240.6%" height="236.4%" filterUnits="objectBoundingBox" id="b">
+            <feGaussianBlur stdDeviation="20" in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g transform="translate(60.687 60.313)" fill="none" fill-rule="evenodd">
+        <ellipse fill="url(#a)" opacity=".404" filter="url(#b)" transform="rotate(-90 44 42.687)" cx="44" cy="42.687" rx="42.687" ry="44"/>
+        <ellipse fill="#4BCFFA" opacity=".5" cx="44.313" cy="43" rx="23" ry="22.313"/>
+        <ellipse fill="#FFF" cx="43.96" cy="42.657" rx="17.692" ry="17.164"/>
+        <path d="M51.11 46.69c-1.292 2.897-4.315 4.768-7.702 4.768-3.46 0-6.502-1.88-7.748-4.792a.967.967 0 0 1 .544-1.278 1.04 1.04 0 0 1 .386-.074c.396 0 .77.226.931.603.933 2.179 3.244 3.586 5.887 3.586 2.583 0 4.88-1.408 5.851-3.589a1.02 1.02 0 0 1 1.325-.509c.51.215.746.79.525 1.285z" fill="#3A4A66"/>
+    </g>
+</svg>

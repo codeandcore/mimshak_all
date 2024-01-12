@@ -1,0 +1,157 @@
+//  
+@import "../components/student_header";
+
+.modal-content{
+    overflow: hidden;
+}
+.mimsha_body{
+    .txt-blue{
+        color: $blue;
+    }
+}
+.blue_btn.txt-blue{
+    color: $blue;
+}
+.student_normal{
+    .main{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .tab_head{
+        .tab{
+            li{
+                a{
+                    font-size: 12px;     
+                    color:$blue2;     
+                    padding: 11px 29px 5px;        
+                    span{
+                        display: block;
+                        text-align: center;
+                        font-size: 16px;
+                        color: $black;                         
+                        line-height: 1; 
+                    }
+                    em{
+                        font-style: normal;
+                        opacity: 0.5;
+                    }
+                    &.active{
+                        font-weight: 400;
+                        span{
+                            color:$blue2;
+                            font-weight: 700;
+                        }
+                    }
+                }
+                &:last-child{
+                    a{                       
+                        span{
+                          
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .accord{
+        padding-bottom: 42px;
+        margin-top: 41px;
+        .accord_head{
+            .side_anc{
+                li{
+                    a{
+                        color:$blue2;
+                        img{
+                            margin-left: 4px;
+                        }
+                    }
+                }
+            }            
+        }
+        .wall_out{
+            .wall{
+                a{
+                    color:$blue2;
+                    font-size: 14px;
+                    &:hover{
+                        opacity: 0.8;
+                    }
+                }
+            }
+            .common_one{
+                li{
+                    &:first-child{
+                        width: 360px;
+                    }
+                    &:nth-child(2){
+                        width: 100px;
+                    }
+                    &:last-child{
+                        width: 150px;
+                        text-align: center;
+                    }
+                    .blue_btn{
+                        margin:0;
+                        display: inline-block;
+                        font-size: 14px;
+                        min-width: 120px;
+                        padding: 7px 20px;
+                        border-radius: 19px;
+                        background-color: rgba(0,170,255,.1);
+                        color:$blue2;
+                        font-weight: 700;
+                    }
+                    .text_btn{
+                        font-size: 14px;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        text-align: center;
+                        color: #0af;
+                    }
+                    a{
+                        &:hover{
+                            opacity: 0.8;
+                        }
+                    }
+
+                    @media screen and (max-width: 1199px){
+                        &:first-child{
+                            width: 220px;
+                            .wall_img{
+                                max-width: 90px;
+                                min-width: 90px;
+                                a.wall_con_img{
+                                    width: 80px;
+                                }
+                            }
+                        }
+                    }
+
+                }                
+            }
+        }
+    }
+    &.student_listing{
+        
+        .tab_head{
+            .accord_head{
+                padding-right: 0;
+                padding-bottom: 0;
+            }
+        }
+        .setbaccord{
+            .main_title{
+                > div{
+                    width: 50%;
+                }
+                b{
+                    font-size: 14px;
+                    margin-top: 6px;
+                }
+            }            
+        }
+    }
+}

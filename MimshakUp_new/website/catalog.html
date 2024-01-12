@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="he">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Mimshakup</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+        <link rel="icon" type="image/ico" href="image/favicon.ico" /> 
+        <link rel="mask-icon" href="image/favicon.ico" color="white">
+        <link rel="stylesheet" type="text/css" href="css/scss/style.css">
+    </head>
+
+<body class="catalog_body">
+    <!-- <div class="cursor" id="cursor"></div>
+    <div class="cursor2" id="cursor2"></div>
+    <div class="cursor3" id="cursor3"></div> -->
+    <div class="loader" id="loadingDiv">
+       <img src="image/logo.svg" alt="logo">
+        <span></span>
+        <span></span>
+    </div>       
+    <header>
+        <div class="container">
+            <div class="head">
+                <nav>
+                    <a href="javascript:void(0)" class="close_nav"><img src="image/cross.svg"></a>
+                    <ul>
+                        <li class=" head_regis"><a href="register.html">הרשמה</a></li> 
+                        <li><a href="login.html">התחברות</a></li>
+                        <li><a href="catalog.html" class="active">קטלוג היחידות</a></li>
+                        <li><a href="vision.html">אודות</a></li>
+                        <li><a href="index.html"> סביבת ממשק אפ </a></li>
+                    </ul>
+                </nav>
+                <div class="logo d-flex align-items-center">
+                    <a href="index.html"><img src="image/logo.svg" alt="logo" class="logo_web"><img
+                            src="image/logo_mob.svg" alt="logo" class="logo_mob"></a>
+                    <a href="javascript:void(0)" class="menu"><img src="image/menu.svg"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="main-scrollbar">
+
+    <section class="main log_out">
+        <div class="container">
+            <div class="catalog_main">
+                <div class="catalog_page d-flex justify-content-between">
+                    <h3>קטלוג היחידות</h3>
+                    <div class="catalog_head_lft">
+                        <ul class="d-flex align-items-center">
+                            <li class="dropdown status"><a href="javascript:void(0)" class="statustext">סיון לפי<b
+                                        class="statuswrite">תאריך</b> <img src="image/arrow-right.svg"
+                                        alt="arrow"></a>
+                                <ul class="status_list">
+                                    <li>תאריך</li>
+                                    <li>דירוג</li>
+                                    <li>רמת קושי</li>
+
+                                </ul>
+                            </li>
+                            <li class="search"><input type="text" placeholder="חיפוש יחידה">
+                                <img src="image/search.svg" alt="search">
+                                <span class="close_mobile">
+                                    <img src="image/closegrey.png" alt="search">
+                                </span>
+                            </li>
+                        </ul>
+                        <div class="mob_view">
+                            <a href="javascript:void(0)" class="filter"><img src="image/funnel.svg"></a>
+                            <a href="javascript:void(0)" class="search_mob"><img src="image/search_dark.svg"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog_mid">
+                    <div class="catalog_rht">
+                       <a href="javascript:void(0)" class="close_mob"><img src="image/xx.svg" alt=""></a>
+                        <ul>
+                            <li class="acc_list active">
+                                <span>סינון לפי כיתות <img src="image/downgrey.svg" alt="arrow"></span>
+                                <ul class="acc_drop" style="display: block;">
+                                    <li class="new_acc_list active">
+                                        <span>גן ויסודי <img src="image/arrow_bkt.png" alt="arrow"></span>
+                                        <ul class="new_acc_drop" style="display: block;">
+                                            <li>
+                                                <input type="checkbox" id="ge1" class="check_in">
+                                                <label for="ge1" class="checklabel">
+                                                    <div class="check"></div> <i>גן</i>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" id="ge2" class="check_in">
+                                                <label for="ge2" class="checklabel">
+                                                    <div class="check"></div> <i>א</i>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" id="ge3" class="check_in">
+                                                <label for="ge3" class="checklabel">
+                                                    <div class="check"></div> <i>ב</i>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" id="ge4" class="check_in">
+                                                <label for="ge4" class="checklabel">
+                                                    <div class="check"></div> <i>ג</i>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" id="ge5" class="check_in">
+                                                <label for="ge5" class="checklabel">
+                                                    <div class="check"></div> <i>ד</i>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" id="ge6" class="check_in">
+                                                <label for="ge6" class="checklabel">
+                                                    <div class="check"></div> <i>ה</i>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" id="ge7" class="check_in">
+                                                <label for="ge7" class="checklabel">
+                                                    <div class="check"></div> <i>ו</i>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="new_acc_list ">
+                                        <span>חטיבת ביניים <img src="image/arrow_bkt.png" alt="arrow"></span>
+                                        <ul class="new_acc_drop">
+                                            <li>
+                                                <input type="checkbox" id="jh1" class="check_in">
+                                                <label for="jh1" class="checklabel">
+                                                    <div class="check"></div> <i>ז</i>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" id="jh2" class="check_in">
+                                                <label for="jh2" class="checklabel">
+                                                    <div class="check"></div> <i>ח</i>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" id="jh3" class="check_in">
+                                                <label for="jh3" class="checklabel">
+                                                    <div class="check"></div> <i>ט</i>
+                                                </label>
+                                            </li>                                               
+                                        </ul>
+                                    </li>
+                                    <li class="new_acc_list">
+                                        <span>חטיבה עליונה <img src="image/arrow_bkt.png" alt="arrow"></span>
+                                        <ul class="new_acc_drop">
+                                            <li>
+                                                <input type="checkbox" id="hc1" class="check_in">
+                                                <label for="hc1" class="checklabel">
+                                                    <div class="check"></div> <i>י</i>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" id="hc2" class="check_in">
+                                                <label for="hc2" class="checklabel">
+                                                    <div class="check"></div> <i>יא</i>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <input type="checkbox" id="hc3" class="check_in">
+                                                <label for="hc3" class="checklabel">
+                                                    <div class="check"></div> <i>יב</i>
+                                                </label>
+                                            </li>                                               
+                                        </ul>
+                                    </li>
+                                    <li class="new_acc_list">
+                                        <span>פיתוח מקצועי <img src="image/arrow_bkt.png" alt="arrow"></span>
+                                        <ul class="new_acc_drop">
+                                            <li>
+                                                <input type="checkbox" id="pd1" class="check_in">
+                                                <label for="pd1" class="checklabel">
+                                                    <div class="check"></div> <i>עברית</i>
+                                                </label>
+                                            </li>                                                                                             
+                                        </ul>
+                                    </li>                                                                                                                        
+                                </ul>
+                            </li>                           
+                            <li class="acc_list">
+                                <span>סינון לפי תחום <img src="image/downgrey.svg" alt="arrow"></span>
+                                <ul class="acc_drop">
+                                    <li>
+                                        <input type="checkbox" id="seven" class="check_in">
+                                        <label for="seven" class="checklabel">
+                                            <div class="check"></div> <i>חשבון</i>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="eight" class="check_in">
+                                        <label for="eight" class="checklabel">
+                                            <div class="check"></div> <i>עברית</i>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="nine" class="check_in">
+                                        <label for="nine" class="checklabel">
+                                            <div class="check"></div> <i>מולדת חברה ואזרחות</i>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="ten" class="check_in">
+                                        <label for="ten" class="checklabel">
+                                            <div class="check"></div> <i>גיאגרפיה</i>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="eleven" class="check_in">
+                                        <label for="eleven" class="checklabel">
+                                            <div class="check"></div> <i>היסטוריה</i>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="twelve" class="check_in">
+                                        <label for="twelve" class="checklabel">
+                                            <div class="check"></div> <i>אנגלית</i>
+                                        </label>
+                                    </li>
+
+                                    <li>
+                                        <input type="checkbox" id="do1" class="check_in">
+                                        <label for="do1" class="checklabel">
+                                            <div class="check"></div> <i>תנך</i>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="do2" class="check_in">
+                                        <label for="do2" class="checklabel">
+                                            <div class="check"></div> <i>מדע וטכנולוגיה</i>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="do3" class="check_in">
+                                        <label for="do3" class="checklabel">
+                                            <div class="check"></div> <i>תרבות יהודית ישראלית</i>
+                                        </label>
+                                    </li>
+                                </ul>
+
+
+
+
+
+
+
+
+
+
+                            </li>
+                            <li class="acc_list"><span>שפה <img src="image/downgrey.svg" alt="arrow"></span>
+                                <ul class="acc_drop">
+                                    <li>
+                                        <input type="checkbox" id="thirteen" class="check_in">
+                                        <label for="thirteen" class="checklabel">
+                                            <div class="check"></div> <i> עברית</i>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="fourteen" class="check_in">
+                                        <label for="fourteen" class="checklabel">
+                                            <div class="check"></div> <i>English</i>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="fifteen" class="check_in">
+                                        <label for="fifteen" class="checklabel LucidaGrande">
+                                            <div class="check"></div> <i>русский</i>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="sixteen" class="check_in">
+                                        <label for="sixteen" class="checklabel GeezaPro">
+                                            <div class="check"></div> <i>عربيه</i>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <a href="javascript:void(0)" class="cancel_filters">ביטול סינונים</a>
+                        <a href="javascript:void(0)" class="ok_filters">אישור</a>
+                        
+                    </div>
+                    <!--<div class="catalog_rht">
+                        <a href="javascript:void(0)" class="close_nav close_fil"><img src="image/cross.svg"></a>
+                        <a href="#" title="" class="fillter-clear">ביטול סינונים</a>
+                        <ul>
+                            <li class="acc_list active"><span>כיתות <img src="image/downgrey.svg"
+                                        alt="arrow"></span>
+                                <ul class="acc_drop" style="display: block;">
+                                    <li>
+                                        <input type="checkbox" id="one" class="check_in">
+                                        <label for="one" class="checklabel">
+                                            <div class="check"></div> <i>כיתה א</i>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="two" class="check_in">
+                                        <label for="two" class="checklabel">
+                                            <div class="check"></div> <i>כיתה ב</i>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="three" class="check_in">
+                                        <label for="three" class="checklabel">
+                                            <div class="check"></div> <i>כיתה ג</i>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="four" class="check_in">
+                                        <label for="four" class="checklabel">
+                                            <div class="check"></div> <i>כיתה ד</i>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="five" class="check_in">
+                                        <label for="five" class="checklabel">
+                                            <div class="check"></div> <i>כיתה ה</i>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="six" class="check_in">
+                                        <label for="six" class="checklabel">
+                                            <div class="check"></div> <i>כיתה ו</i>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="acc_list"><span>תחום <img src="image/downgrey.svg" alt="arrow"></span>
+                                <ul class="acc_drop">
+                                    <li>
+                                        <input type="checkbox" id="seven" class="check_in">
+                                        <label for="seven" class="checklabel">
+                                            <div class="check"></div> <i>ידיעת הארץ</i>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="eight" class="check_in">
+                                        <label for="eight" class="checklabel">
+                                            <div class="check"></div> <i>חשבון</i>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="nine" class="check_in">
+                                        <label for="nine" class="checklabel">
+                                            <div class="check"></div> <i>היסטוריה</i>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="ten" class="check_in">
+                                        <label for="ten" class="checklabel">
+                                            <div class="check"></div> <i>לשון</i>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="eleven" class="check_in">
+                                        <label for="eleven" class="checklabel">
+                                            <div class="check"></div> <i>ספרות</i>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="twelve" class="check_in">
+                                        <label for="twelve" class="checklabel">
+                                            <div class="check"></div> <i>תורה</i>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="acc_list"><span>שפה <img src="image/downgrey.svg" alt="arrow"></span>
+                                <ul class="acc_drop">
+                                    <li>
+                                        <input type="checkbox" id="thirteen" class="check_in">
+                                        <label for="thirteen" class="checklabel">
+                                            <div class="check"></div> <i> עברית</i>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="fourteen" class="check_in">
+                                        <label for="fourteen" class="checklabel">
+                                            <div class="check"></div> <i>English</i>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="fifteen" class="check_in">
+                                        <label for="fifteen" class="checklabel LucidaGrande">
+                                            <div class="check"></div> <i>русский</i>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="sixteen" class="check_in">
+                                        <label for="sixteen" class="checklabel GeezaPro">
+                                            <div class="check"></div> <i>عربيه</i>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="text-center">
+                        <a href="#" class="blue-btn">אישור</a>
+                        </div>
+                    </div>-->
+                    <div class="catalog_lft">
+                        <div class="catalog_lft_in">
+                            <div class="catalog">
+                                <div class="catalog_img">
+                                    <img src="image/new_cat_1.png" class="img_full">
+                                    <a href="https://www.mimshak.com/prods/1293/" target="_blank" class="play_btn"><img src="image/Path.svg"></a>
+                                </div>
+                                <div class="catalog_con">
+                                    <h6>בוריס שץ </h6>
+                                    <p><span>תחום:</span>מולדת</p>
+                                    <p><span>כיתות</span>ד</p>
+                                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i>82 חוות דעת </p>
+                                </div>
+                            </div>
+                            <div class="catalog">
+                                <div class="catalog_img">
+                                    <img src="image/new_cat_2.png" class="img_full">
+                                    <a href="https://www.mimshak.com/prods/1291/"  target="_blank" class="play_btn"><img src="image/Path.svg"></a>
+                                </div>
+                                <div class="catalog_con">
+                                    <h6>לידת הנצרות</h6>
+                                    <p><span>תחום:</span>היסטוריה</p>
+                                    <p><span>כיתות</span>ז</p>
+                                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i>45 חוות דעת </p>
+                                </div>
+                            </div>
+                            <div class="catalog">
+                                <div class="catalog_img">
+                                    <img src="image/new_cat_3.png" class="img_full">
+                                    <a href="https://www.mimshak.com/prods/1292/" target="_blank" class="play_btn"><img src="image/Path.svg"></a>
+                                </div>
+                                <div class="catalog_con">
+                                    <h6>מבנה מערכת הרבייה ותפקודה בצמחים</h6>
+                                    <p><span>תחום:</span>מדעים</p>
+                                    <p><span>כיתות</span>ז</p>
+                                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star noncolor"></i>123 חוות דעת</p>
+                                </div>
+                            </div>
+                            <div class="catalog">
+                                <div class="catalog_img">
+                                    <img src="image/new_cat_4.png" class="img_full">
+                                    <a href="javascript:void(0)" class="play_btn"><img src="image/Path.svg"></a>
+                                </div>
+                                <div class="catalog_con">
+                                    <h6>כי האדם עץ השדה</h6>
+                                    <p><span>תחום:</span>עברית</p>
+                                    <p><span>כיתות</span>ה</p>
+                                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star noncolor"></i> 56 חוות דעת</p>
+                                </div>
+                            </div>
+                            <div class="catalog">
+                                <div class="catalog_img">
+                                    <img src="image/new_cat_5.png" class="img_full">
+                                    <a href="javascript:void(0)" class="play_btn"><img src="image/Path.svg"></a>
+                                </div>
+                                <div class="catalog_con">
+                                    <h6>בתים ומחסות</h6>
+                                    <p><span>תחום:</span>מדעים</p>
+                                    <p><span>כיתות</span>א, ב</p>
+                                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i> 72 חוות דעת</p>
+                                </div>
+                            </div>
+                            <div class="catalog">
+                                <div class="catalog_img">
+                                    <img src="image/new_cat_6.png" class="img_full">
+                                    <a href="javascript:void(0)" class="play_btn"><img src="image/Path.svg"></a>
+                                </div>
+                                <div class="catalog_con">
+                                    <h6>My best neighbor</h6>
+                                    <p><span>תחום:</span>אנגלית</p>
+                                    <p><span>כיתות</span>ד</p>
+                                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i>67 חוות דעת </p>
+                                </div>
+                            </div>
+                            <div class="catalog">
+                                <div class="catalog_img">
+                                    <img src="image/new_cat_7.png" class="img_full">
+                                    <a href="javascript:void(0)" class="play_btn"><img src="image/Path.svg"></a>
+                                </div>
+                                <div class="catalog_con">
+                                    <h6>ראש השנה</h6>
+                                    <p><span>תחום:</span>חינוך לשוני </p>
+                                    <p><span>כיתות</span>א, ב</p>
+                                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i>81 חוות דעת</p>
+                                </div>
+                            </div>
+                            <div class="catalog">
+                                <div class="catalog_img">
+                                    <img src="image/new_cat_8.png" class="img_full">
+                                    <a href="javascript:void(0)" class="play_btn"><img src="image/Path.svg"></a>
+                                </div>
+                                <div class="catalog_con">
+                                    <h6>קווים</h6>
+                                    <p><span>תחום:</span>מתמטיקה</p>
+                                    <p><span>כיתות</span>א, ב</p>
+                                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i>103 חוות דעת</p>
+                                </div>
+                            </div>
+                            <div class="catalog">
+                                <div class="catalog_img">
+                                    <img src="image/new_cat_9.png" class="img_full">
+                                    <a href="javascript:void(0)" class="play_btn"><img src="image/Path.svg"></a>
+                                </div>
+                                <div class="catalog_con">
+                                    <h6>סופרים מ 1 עד 10</h6>
+                                    <p><span>תחום:</span>חשבון</p>
+                                    <p><span>כיתות</span>גן ילדים</p>
+                                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star noncolor"></i>24 חוות דעת</p>
+                                </div>
+                            </div>
+                            <div class="catalog">
+                                <div class="catalog_img">
+                                    <img src="image/new_cat_10.png" class="img_full">
+                                    <a href="javascript:void(0)" class="play_btn"><img src="image/Path.svg"></a>
+                                </div>
+                                <div class="catalog_con">
+                                    <h6>תופעות טבע בסתיו</h6>
+                                    <p><span>תחום:</span>מדעים</p>
+                                    <p><span>כיתות</span>א</p>
+                                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star noncolor"></i>52 חוות דעת</p>
+                                </div>
+                            </div>
+                            <div class="catalog">
+                                <div class="catalog_img">
+                                    <img src="image/new_cat_11.png" class="img_full">
+                                    <a href="javascript:void(0)" class="play_btn"><img src="image/Path.svg"></a>
+                                </div>
+                                <div class="catalog_con">
+                                    <h6>הצפרדעים</h6>
+                                    <p><span>תחום:</span>מדעים</p>
+                                    <p><span>כיתות</span>ב</p>
+                                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star noncolor"></i> 73 חוות דעת</p>
+                                </div>
+                            </div>
+                            <div class="catalog">
+                                <div class="catalog_img">
+                                    <img src="image/new_cat_12.png" class="img_full">
+                                    <a href="javascript:void(0)" class="play_btn"><img src="image/Path.svg"></a>
+                                </div>
+                                <div class="catalog_con">
+                                    <h6>החושים שלנו</h6>
+                                    <p><span>תחום:</span>מדעים</p>
+                                    <p><span>כיתות</span>א</p>
+                                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star noncolor"></i>28 חוות דעת</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="foot_nav d-flex align-items-center justify-content-between">
+                <div class="copy">
+                    <p>כל הזכויות שמורות © ממשק טכנולוגיות לימודיות בע"מ</p>
+                </div>
+                <div class="foot_contact">
+                    <ul>
+                        <li><a href="tel:0772092209"><span>טלפון</span>: 077-2092209</a></li>
+                        <li><a href="tel:086518646"><span>פקס</span>: 08-6518646</a></li>
+                        <li><a href="mailto:office@mimshak.com"><span> דוא”ל</span>: office@mimshak.com</a></li>
+                    </ul>
+                </div>
+                <div class="ministry">
+                    <img src="image/owl.png">
+                    <p>באישור ובשיתוף משרד החינוך</p>
+                </div>
+                <div class="copy copy_mob">
+                    <p>כל הזכויות שמורות © ממשק טכנולוגיות לימודיות בע"מ</p>
+                </div>
+                <div class="blue_oval blue3"></div>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

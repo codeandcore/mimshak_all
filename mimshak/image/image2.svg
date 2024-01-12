@@ -1,0 +1,77 @@
+<svg width="247" height="260" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter x="-27.8%" y="-20%" width="155.6%" height="150%" filterUnits="objectBoundingBox" id="a">
+            <feOffset dy="10" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-50%" y="-40.8%" width="200%" height="214.3%" filterUnits="objectBoundingBox" id="c">
+            <feOffset dy="12" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-50%" y="-40.8%" width="200%" height="214.3%" filterUnits="objectBoundingBox" id="e">
+            <feOffset dy="12" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-50%" y="-40.8%" width="200%" height="214.3%" filterUnits="objectBoundingBox" id="g">
+            <feOffset dy="12" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-50%" y="-40.8%" width="200%" height="214.3%" filterUnits="objectBoundingBox" id="i">
+            <feOffset dy="12" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <rect id="b" x="0" y="8" width="180" height="200" rx="14"/>
+        <rect id="d" x="0" y="23.864" width="83.991" height="73.496" rx="16.94"/>
+        <rect id="f" x="86" y="43.864" width="83.991" height="73.496" rx="16.94"/>
+        <rect id="h" x="52.293" y="0" width="83.991" height="73.496" rx="16.94"/>
+        <rect id="j" x="33" y="60.864" width="83.991" height="73.496" rx="16.94"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g opacity=".7" transform="translate(30.216 12)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="#FFF" xlink:href="#b"/>
+        </g>
+        <g opacity=".6" transform="translate(52.216 48.26)">
+            <use fill="#000" filter="url(#c)" xlink:href="#d"/>
+            <use fill="#28BFEF" xlink:href="#d"/>
+        </g>
+        <g transform="translate(52.216 48.26)">
+            <use fill="#000" filter="url(#e)" xlink:href="#f"/>
+            <use fill="#28BFEF" xlink:href="#f"/>
+        </g>
+        <text opacity=".2" font-family="Assistant-Bold, Assistant" font-size="36" font-weight="bold" fill="#000001" transform="translate(52.216 48.26)">
+                                <tspan x="107" y="89.864">אa</tspan>
+                            </text>
+        <g fill="#000001" font-family="Assistant-Bold, Assistant" font-size="16" font-weight="bold" opacity=".2">
+            <text transform="translate(79.216 78.123)">
+                                    <tspan x="2.448" y="16">2+4</tspan>
+                                </text>
+            <text transform="translate(79.216 78.123)">
+                                    <tspan x=".472" y="36">12:3</tspan>
+                                </text>
+            <text transform="translate(79.216 78.123)">
+                                    <tspan x="2.16" y="56">3X6</tspan>
+                                </text>
+        </g>
+        <g opacity=".6" transform="translate(52.216 48.26)">
+            <use fill="#000" filter="url(#g)" xlink:href="#h"/>
+            <use fill="#4BCFFA" xlink:href="#h"/>
+        </g>
+        <text opacity=".2" font-family="Assistant-Bold, Assistant" font-size="16" font-weight="bold" fill="#000001" transform="translate(52.216 48.26)">
+                                <tspan x="77" y="55.864">LMS</tspan>
+                            </text>
+        <g opacity=".8" transform="translate(52.216 48.26)">
+            <use fill="#000" filter="url(#i)" xlink:href="#j"/>
+            <use fill="#4BCFFA" xlink:href="#j"/>
+        </g>
+        <path d="M122.24 158.22a4.665 4.665 0 0 1-1.868-.401 3.533 3.533 0 0 1-2.156-3.193V137.72a3.533 3.533 0 0 1 2.156-3.193 4.39 4.39 0 0 1 4.537.522l10.47 8.454a3.386 3.386 0 0 1 1.317 2.67c0 1.04-.484 2.023-1.316 2.67l-10.47 8.454a4.289 4.289 0 0 1-2.67.924z" fill="#FFF"/>
+        <text font-family="Assistant-Bold, Assistant" font-size="16" font-weight="bold" fill="#3A4A66" transform="translate(30.216 12)">
+                
+                    </text>
+    </g>
+</svg>

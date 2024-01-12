@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="he">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=1024">
+        <title>Mimshakup</title>
+        <link rel="icon" type=" image/ico" href=" image/favicon.ico" />
+        <link rel="mask-icon" href=" image/favicon.ico" color="white">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+        <link rel="stylesheet" type="text/css" href="css/scss/main/admin_setting.css">
+    </head>
+    <body class="mimsha_body">
+        <div class="loader" id="loadingDiv">
+            <img src="image/logo_loader.svg" alt="logo">
+             <span></span>
+             <span></span>
+             <p class="botom_loader_text">הדף בטעינה. אפשר להמתין או ללחוץ <a href="#">כאן</a> להמשך</p>
+         </div>
+        <section>
+            <header class="head_main">
+                <div class="container">
+                    <div class="d-flex align-items-center justify-content-between head_in ">
+                        <div class="head_rht">
+                            <div class="logo">
+                                <a href="javascript:void(0)"><img src=" image/menu.svg" alt="menu"></a>
+                                <a href="javascript:void(0)"><img src=" image/logo.svg" alt="logo"></a>
+                                <div class="menu_out">
+                                    <ul class="menu">
+                                        <li><a href="../Teachers/dashboard.html" class=""><img src=" image/layout.svg" class="off"><img src="image/layoutblue.svg" class="on"><span>ראשי</span></a></li>
+                                        <li><a href="../Teachers/myclass_normal.html"><img src=" image/menuuser.svg" class="off"><img src=" image/menuuserblue.svg" class="on"><span>הכיתות שלי</span></a></li>
+                                        <li><a href="../Teachers/myunits.html"><img src=" image/playbtn.svg" class="off"><img src=" image/Group.svg" class="on"><span>היחידות שלי</span></a></li>
+                                        <li><a href="../Teachers/catalog.html" class="active"><img src=" image/Combined Shape.svg"class="off"><img src=" image/combined blue.svg" class="on"><span>קטלוגיחידות</span></a>
+                                        </li>
+                                        <li class="menuplus"><a href="javascript:void(0)"><i><img src=" image/plus.svg"></i><span>יצירת יחידהחדשה</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span>ניהול והגדרות</span>
+                        </div>
+                        <div class="head_lft d-flex align-items-center">
+                            <ul class="head_lft_first d-flex justify-content-between align-items-center">
+                                <li><a href="javascript:void(0)"><img src=" image/Combined Shape.svg" alt="Shape"><span>קטלוג
+                                    יחידות</span><i class="count">1</i></a></li>
+                                <li><a href="javascript:void(0)"><img src=" image/minimize.svg" alt="search"></a></li>
+                                <li><a href="javascript:void(0)"><img src=" image/bell.svg" alt="shape"></a></li>
+                                <li><a href="javascript:void(0)"><img src=" image/Shape.svg" alt="shape"></a></li>
+                            </ul>
+                            <ul class="user">
+                                <li><a href="javascript:void(0)"><img src=" image/user.svg" alt="user" class="user_img"><span>עדייה
+                                    וולק</span><img src=" image/arrow-right.svg" alt="arrow"></a></li>
+                                    <div class="user_menu">
+                                        <a href="javascript:void(0)">
+                                        <img src="image/uk1.svg" alt="">
+                                        <img src="image/uk1h.svg" alt="">
+                                        <span>הפרופיל שלי</span> 
+                                        </a>
+                                        <a href="../admin/admin_main.html">
+                                            <img src="image/uk2.svg" alt="">
+                                            <img src="image/uk2h.svg" alt="">
+                                            <span>ניהול והגדרות</span> 
+                                            </a>
+                                        <a href="../website/index.html">
+                                            <img src="image/uk3.png" alt="">
+                                            <img src="image/uk3h.png" alt="">
+                                            <span> התנתקות </span> 
+                                        </a>
+                                    </div> 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="container">
+                <section class="main d-flex justify-content-between align-items-start">
+                    <ul class="right_col">
+                        <li><a href="admin_main.html" >מבט על</a></li>
+                        <li><a href="admin_institute.html" class="active">הגדרות המוסד</a></li>
+                        <li><a href="admin_class.html" >כיתות</a></li>
+                        <li><a href="admin_user_detail.html" >משתמשים</a></li>
+                        <li><a href="javascript:void(0)">פעילות ודוחות</a></li>
+                        <li><a href="admin_settings.html">הגדרות מערכת</a></li>
+                    </ul>
+                    <div class="left_col">
+                        <div class="admin_title  d-flex justify-content-between align-items-center">
+                            <h1>הגדרות המוסד</h1>
+                        </div>
+                        <div class="admin_blog admin_institute common_form">
+                            <h2>
+                                פרטי המוסד
+                            </h2>   
+                            <div class="common_form_wrap_2 w-100 ">
+                                <div class="form_main">
+                                    <label class="label_main">שם המוסד</label>
+                                    <input type="text" value="בית ספר ממשק לטכנולוגיות חינוכיות">
+                                </div>
+                                <div class="form_main">
+                                    <label class="label_main">מספר מוסד </label>
+                                    <input type="text" value="12345678 " class="no_edit_input">
+                                </div>
+                            </div>
+
+                            <div class="form_main">
+                                <label class="label_main">כתובת</label>
+                                <input type="text" value="הראל 12, חיפה">
+                            </div>
+                            <div class="form_main">
+                                <label class="label_main">טלפון המוסד</label>
+                                <input type="text" value="04 8246618">
+                            </div>
+                            <h2 class="mt-4 pt-2">מנהל המוסד <span class="font-weight-normal">(מנהל המערכת עבור המוסד)</span></h2>
+                            <div class="form_main">
+                                <label class="label_main">שם מלא</label>
+                                <input type="text" value="הראל">
+                            </div>
+                            <div class="form_main">
+                                <label class="label_main">טלפון</label>
+                                <input type="text" value="052564756">
+                            </div>
+                            <div class="form_main">
+                                <label class="label_main">דוא”ל</label>
+                                <input type="text" value="ariel@gmail.com">
+                            </div>
+                            <div class="btm_tag mt-4">
+                                <h2>
+                                    תכנית לקוח
+                                </h2>
+                                <div class="d-flex">
+                                    <span>תכנית ניהול עצמאי </span>
+                                    <a href="#" title="">מידע על חבילות נוספות</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="foot d-flex align-items-center justify-content-between">
+                    <div class="foot_rht">
+                        <p>כל הזכויות שמורות © ממשק טכנולוגיות לימודיות בע מ</p>
+                    </div>
+                    <div class="foot_mid">
+                        <a href="#">פרטיות.</a> <a href="#"> תקנון שימוש</a>
+                    </div>
+                    <div class="foot_lft">
+                        <p>מדריך שימוש במערכת</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Modal -->
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src=" js/bootstrap.min.js"></script>
+        <script src=" js/owl.carousel.min.js"></script>
+        <script src=" js/jquery.matchHeight-min.js"></script>
+        <script src=" js/custom.js"></script>
+        <script>
+            /* Match title height */
+            function MatchHeight() {
+                $('.match').matchHeight({});
+            }
+            $(document).ready(function () {
+                MatchHeight();
+            });
+        </script>
+    </body>
+</html>

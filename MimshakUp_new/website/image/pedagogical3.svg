@@ -1,0 +1,29 @@
+<svg width="250" height="247" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="a">
+            <stop stop-color="#4BCFFA" offset="0%"/>
+            <stop stop-color="#FFF" offset="100%"/>
+        </linearGradient>
+        <filter x="-47.6%" y="-46.2%" width="195.1%" height="192.3%" filterUnits="objectBoundingBox" id="b">
+            <feGaussianBlur stdDeviation="20" in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g transform="translate(60 57)" fill="none" fill-rule="evenodd">
+        <ellipse fill="url(#a)" opacity=".404" filter="url(#b)" transform="rotate(-90 65 66.94)" cx="65" cy="66.94" rx="63.06" ry="65"/>
+        <g opacity=".8" transform="translate(24 27.164)">
+            <ellipse fill="#4BCFFA" opacity=".5" cx="23" cy="22.313" rx="23" ry="22.313"/>
+            <ellipse fill="#FFF" cx="22.646" cy="21.97" rx="17.692" ry="17.164"/>
+            <path d="M29.796 26.004c-1.291 2.896-4.314 4.767-7.702 4.767-3.46 0-6.501-1.88-7.747-4.791a.967.967 0 0 1 .544-1.278 1.04 1.04 0 0 1 .386-.075c.395 0 .77.227.93.603.934 2.18 3.244 3.586 5.887 3.586 2.583 0 4.88-1.408 5.852-3.588a1.02 1.02 0 0 1 1.325-.51c.51.215.746.79.525 1.286z" fill="#3A4A66"/>
+        </g>
+        <g opacity=".8" transform="translate(43 43.657)">
+            <ellipse fill="#4BCFFA" opacity=".5" cx="32.5" cy="31.53" rx="32.5" ry="31.53"/>
+            <ellipse fill="#FFF" cx="32" cy="31.045" rx="25" ry="24.254"/>
+            <path d="M42.103 36.745c-1.824 4.092-6.096 6.736-10.883 6.736-4.89 0-9.187-2.657-10.948-6.77-.302-.705.043-1.513.77-1.806.178-.072.363-.106.545-.106.558 0 1.088.32 1.315.852 1.319 3.08 4.583 5.068 8.318 5.068 3.65 0 6.896-1.99 8.269-5.07.312-.701 1.15-1.024 1.872-.72.721.303 1.054 1.116.742 1.816z" fill="#3A4A66"/>
+        </g>
+        <g opacity=".8" transform="translate(64)">
+            <ellipse fill="#4BCFFA" opacity=".5" cx="14" cy="13.582" rx="14" ry="13.582"/>
+            <ellipse fill="#FFF" cx="13.785" cy="13.373" rx="10.769" ry="10.448"/>
+            <path d="M18.137 15.828c-.786 1.763-2.626 2.902-4.688 2.902-2.107 0-3.958-1.144-4.716-2.916a.589.589 0 0 1 .33-.778.632.632 0 0 1 .236-.046c.24 0 .469.138.567.367.567 1.327 1.974 2.183 3.583 2.183 1.572 0 2.97-.857 3.562-2.184a.62.62 0 0 1 .806-.31c.31.13.454.48.32.782z" fill="#3A4A66"/>
+        </g>
+    </g>
+</svg>

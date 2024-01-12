@@ -1,0 +1,49 @@
+@import "../style.scss";
+@import "admin_main.scss";
+
+
+.common_form{
+    padding-right: 97px;
+    h2{
+        font-size: 16px;
+        line-height: 2.56;
+    }    
+    .wall_list{
+        .dropdown {
+            display: block;             
+        }
+    }    
+    .bottom_just{
+        margin-top: 66px;
+
+        a{
+            font-size: 14px;
+            color: $blue2;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    }
+}
+
+.admin_institute{
+    padding-right: 97px;
+    .btm_tag{
+        h2{
+            margin-top: 0;
+            line-height: 1.94;
+        }
+        a{
+            color: $blue4;
+            margin-right: 34px;
+        }
+    }   
+}
+.nonAdmin{
+    .left_col{
+        min-height: 100vh;
+        .nonAdmin_blog.admin_institute{
+            padding-right: 67px;
+        }
+    }
+}

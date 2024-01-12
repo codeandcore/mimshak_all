@@ -1,0 +1,8 @@
+.forgotmain{
+    padding:145px 0px;
+	min-height:calc(100vh - 80px);
+    overflow: hidden; 
+    @media (max-width: $sm-large) {
+        padding:200px 0px;
+    }
+}

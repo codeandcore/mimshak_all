@@ -1,0 +1,239 @@
+.main2{
+    padding: 192px 0px;
+    position: relative;
+    @media (max-width: $sm-large) {
+        padding: 98px 0px 31px;
+    }
+    .regi_green {
+        bottom:13%;
+    }
+    .blue_log {
+        position:absolute;
+        top:15%;
+        right:25%;
+        @media (max-width: $sm-large) {
+            right:-60px;
+            top:110px
+        }
+    }
+    .yellow_log {
+        position:absolute;
+        right:34.5%;
+        bottom:12%;
+        @media (max-width: $md-large) {
+            right:-60px;
+        }
+        @media (max-width: $sm-large) {
+            right:initial;
+            left:-7px;
+            bottom:16.5%;
+        }
+    }
+    .green_log {
+        position:absolute;
+        width:190px;
+        height:190px;
+        left:20%;
+        @media (max-width: $sm-large) {
+            left:0px;
+            display:none;
+        }
+    }
+}
+.login{
+    max-width:407px;
+	padding:38px 53px 33px 54px;
+	border-radius:14px;
+	background-color:var(--white);
+	margin:0px auto;
+	position:relative;
+	z-index:2;
+	@media (max-width: $sm-large) {
+        padding: 25px 10px 25px 10px;
+    }
+    h4 {
+        font-weight:bold;
+        padding-bottom:47px;
+        text-align:center;
+    }
+   
+
+    .ministry {
+        max-width:180px;
+        margin:0px auto;
+        padding:10px 7px 11px 20px;
+        border-radius:14px;
+        box-shadow:0 10px 20px 0 rgba(0,0,0,0.1);
+        p {
+            margin-right:0px;
+            @media (max-width: $sm-large) {
+                font-size: 12px;
+            }
+        }    
+        a{
+            display: flex;
+            align-items: center;
+        }  
+        img{
+            max-width: 42px;
+        }  
+    }
+    .forgot_password{
+        margin:30px 0 22px;
+    }
+    .was-validated{
+        .invalid-feedback{
+            display: block;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .forgot_password{
+            margin-bottom: 0;
+        }
+    }
+    .form_btn{
+        margin: 6px 0 20px;
+    }
+}
+.forgot{
+    font-size:14px;
+    line-height:1.57;
+    color:#5aacff!important;
+    display:inline-block;
+    margin:0 8px;
+    z-index:2;
+    position:relative;
+    &:hover {
+        opacity:0.8;
+    }
+}
+.form_btn{
+    font-size:14px;
+    font-weight:bold;
+    color:$white;
+    padding:12px 20px;
+    border-radius:14px;
+    box-shadow:0 10px 20px 0 rgba(0,0,0,0.1);
+    background-color:#5aacff;
+    width:100%;
+    margin:28px 0 20px;
+    &:hover {
+        opacity:0.8;
+    }
+}
+.foot_nav{
+    .ministry{
+        img{
+            max-width: 120px;
+        }
+    }
+}
+
+.form-group {
+	margin-bottom:20px;
+    .form-control {
+        font-family:'Assistant';
+        height:42px;
+        padding:10px 17px 10px 17px;
+        border-radius:9px;
+        background-color:#f4f6fa !important;
+        width:100%;
+        font-size:16px;
+        line-height:1.38;
+        color:var(--black);
+        border:none;
+        box-shadow:none !important;
+        outline:none;
+        border:1px solid transparent;
+        &.error {
+            border-color:#FF5C5C;
+        }
+        &:focus {
+            border-color:#5AACFF;
+        }
+        &::placeholder {
+            opacity:0.5;
+        }
+        &.is-valid{
+            border-color: #f4f6fa;
+            padding: 10px 17px 10px 17px;
+            background-image: none;
+            &:focus{
+                border-color: #5AACFF;
+            }
+        }
+        &.is-invalid{
+            border-color: #ff5c5c;
+            padding: 10px 17px 10px 17px;
+            background-image: none;
+        }
+    }   
+}
+.was-validated{
+    .invalid-feedback{
+        color: #ff5c5c;
+        font-size: 12px;
+    }
+    .form-control{
+        &:valid{
+            border-color: #f4f6fa;
+            padding: 10px 17px 10px 17px;
+            background-image: none;
+            &:focus{
+                border-color: #5AACFF;
+            }
+        }
+        &:invalid{
+            border-color: #ff5c5c;
+            padding: 10px 17px 10px 17px;
+            background-image: none;
+        }
+    }
+    .form_btn{
+        margin: 6px 0 20px;
+    }
+}
+.checkdiv{
+    position:relative;
+    input{
+        &[type=checkbox] {
+            position:absolute;
+            width:0px;
+            height:0px;
+            opacity:0;
+            visibility:hidden;
+            &:checked{
+                + label{
+                    span{
+                        &::after{
+                            content:"";
+                            position:absolute;
+                            width:16px;
+                            height:16px;
+                            background:url(../../image/checkmark.svg)no-repeat;
+                            background-size:contain;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    label {
+        font-size:14px;
+        font-weight:normal;
+        line-height:1.57;
+        margin:0px;
+        display:flex;
+        align-items:center;
+        span {
+            width:22px;
+            height:22px;
+            padding:2px;
+            border-radius:6px;
+            border:solid 1px #d1d7e4;
+            display:block;
+            position:relative;
+            margin-left:10px;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+<svg width="250" height="249" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="a">
+            <stop stop-color="#0EE881" offset="0%"/>
+            <stop stop-color="#FFF" offset="100%"/>
+        </linearGradient>
+        <filter x="-46.9%" y="-46.2%" width="193.7%" height="192.3%" filterUnits="objectBoundingBox" id="b">
+            <feGaussianBlur stdDeviation="20" in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g transform="translate(60 59)" fill="none" fill-rule="evenodd">
+        <ellipse fill="url(#a)" opacity=".4" filter="url(#b)" transform="rotate(-90 65 65.985)" cx="65" cy="65.985" rx="64.015" ry="65"/>
+        <path d="M0 0h130v128.03H0z"/>
+        <rect stroke="#81EDB7" stroke-width="7.92" opacity=".8" x="17.96" y="13.808" width="28.08" height="27.535" rx="13.767"/>
+        <path d="M119 25.627a1.037 1.037 0 0 1 1.04 1.04v36.288a1.037 1.037 0 0 1-1.04 1.04H82a1.037 1.037 0 0 1-1.04-1.04V26.667a1.037 1.037 0 0 1 1.04-1.04z" stroke="#FF9705" stroke-width="7.92" fill="#FFF" opacity=".499"/>
+        <path d="M64.68 37.814a1.146 1.146 0 0 1 1.327.55l29.535 53.58a1.146 1.146 0 0 1-.452 1.563 1.15 1.15 0 0 1-.555.143h-59.07a1.146 1.146 0 0 1-1.15-1.15c0-.194.05-.385.143-.555l29.535-53.582c.153-.278.405-.468.687-.55z" stroke="#4BCFFA" stroke-width="7.7" fill="#FFF" opacity=".5"/>
+    </g>
+</svg>

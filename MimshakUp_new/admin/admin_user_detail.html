@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="he">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=1024">
+        <title>Mimshakup</title>
+        <link rel="icon" type=" image/ico" href=" image/favicon.ico" />
+        <link rel="mask-icon" href=" image/favicon.ico" color="white">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+        <link rel="stylesheet" type="text/css" href="css/scss/main/admin_details.css">
+    </head>
+    <body class="mimsha_body">
+        <div class="loader" id="loadingDiv">
+            <img src="image/logo_loader.svg" alt="logo">
+             <span></span>
+             <span></span>
+             <p class="botom_loader_text">הדף בטעינה. אפשר להמתין או ללחוץ <a href="#">כאן</a> להמשך</p>
+         </div>
+        <section>
+             <header class="head_main">
+                <div class="container">
+                    <div class="d-flex align-items-center justify-content-between head_in ">
+                        <div class="head_rht">
+                            <div class="logo">
+                                <a href="javascript:void(0)"><img src=" image/menu.svg" alt="menu"></a>
+                                <a href="javascript:void(0)"><img src=" image/logo.svg" alt="logo"></a>
+                                <div class="menu_out">
+                                    <ul class="menu">
+                                        <li><a href="../Teachers/dashboard.html" class=""><img src=" image/layout.svg" class="off"><img src="image/layoutblue.svg" class="on"><span>ראשי</span></a></li>
+                                        <li><a href="../Teachers/myclass_normal.html"><img src=" image/menuuser.svg" class="off"><img src=" image/menuuserblue.svg" class="on"><span>הכיתות שלי</span></a></li>
+                                        <li><a href="../Teachers/myunits.html"><img src=" image/playbtn.svg" class="off"><img src=" image/Group.svg" class="on"><span>היחידות שלי</span></a></li>
+                                        <li><a href="../Teachers/catalog.html" class="active"><img src=" image/Combined Shape.svg"class="off"><img src=" image/combined blue.svg" class="on"><span>קטלוגיחידות</span></a>
+                                        </li>
+                                        <li class="menuplus"><a href="javascript:void(0)"><i><img src=" image/plus.svg"></i><span>יצירת יחידהחדשה</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span>ניהול והגדרות</span>
+                        </div>
+                        <div class="head_lft d-flex align-items-center">
+                            <ul class="head_lft_first d-flex justify-content-between align-items-center">
+                                <li><a href="javascript:void(0)"><img src=" image/Combined Shape.svg" alt="Shape"><span>קטלוג
+                                    יחידות</span><i class="count">1</i></a></li>
+                                <li><a href="javascript:void(0)"><img src=" image/minimize.svg" alt="search"></a></li>
+                                <li><a href="javascript:void(0)"><img src=" image/bell.svg" alt="shape"></a></li>
+                                <li><a href="javascript:void(0)"><img src=" image/Shape.svg" alt="shape"></a></li>
+                            </ul>
+                            <ul class="user">
+                                <li><a href="javascript:void(0)"><img src=" image/user.svg" alt="user" class="user_img"><span>עדייה
+                                    וולק</span><img src=" image/arrow-right.svg" alt="arrow"></a></li>
+                                    <div class="user_menu">
+                                        <a href="javascript:void(0)">
+                                        <img src="image/uk1.svg" alt="">
+                                        <img src="image/uk1h.svg" alt="">
+                                        <span>הפרופיל שלי</span> 
+                                        </a>
+                                        <a href="../admin/admin_main.html">
+                                            <img src="image/uk2.svg" alt="">
+                                            <img src="image/uk2h.svg" alt="">
+                                            <span>ניהול והגדרות</span> 
+                                            </a>
+                                        <a href="../website/index.html">
+                                            <img src="image/uk3.png" alt="">
+                                            <img src="image/uk3h.png" alt="">
+                                            <span> התנתקות </span> 
+                                        </a>
+                                    </div> 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="container">
+                <section class="main d-flex justify-content-between align-items-start">
+                    <ul class="right_col">
+                        <li><a href="admin_main.html" >מבט על</a></li>
+                        <li><a href="admin_institute.html" >הגדרות המוסד</a></li>
+                        <li><a href="admin_class.html">כיתות</a></li>
+                        <li><a href="admin_user_detail.html" class="active">משתמשים</a></li>
+                        <li><a href="javascript:void(0)">פעילות ודוחות</a></li>
+                        <li><a href="admin_settings.html">הגדרות מערכת</a></li>
+                    </ul>
+                    <div class="left_col">
+                        <div class="admin_title  d-flex justify-content-between align-items-center mb-2">
+                            <h1>משתמשים</h1>    
+                            <div>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#addtask1" class="font-14px blue_bold">+ הוספת משתמשים ממסמך</a>
+                                <a href="admin_new_user.html" class="blue_bold font-14px" style="margin-right: 14px;">+ הוספת משתמש</a>                                
+                            </div>                        
+                        </div>
+                        <div class="class_main user_details">
+                            <div class="class_listing">
+                                <ul class="listing-wrap ">
+                                    <li class="thead">
+                                        <ul>
+                                            <li>
+                                                <div class="class_name">
+                                                    <span>שם משתמש</span> <img src="image/arrow_bkt.png" alt="">
+                                                </div>
+                                                <div class="teacher">
+                                                    <span>תפקיד</span> <img src="image/arrow_bkt.png" alt=""> 
+                                                </div>
+                                                <div class="including_teacher">
+                                                    <span>משוייך ל</span>
+                                                </div>
+                                                <div class="pupils">
+                                                    <span>דוא”ל</span>
+                                                </div>
+                                                <div>
+                                                    <span>טלפון</span>
+                                                </div>
+                                                <div><span>כניסה אחרונה</span></div>
+                                                <div></div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="tbody">
+                                        <ul>
+                                            <li>
+                                                <div><a class="font-14px"  href="#" title="">דני יוסף</a></div>
+                                                <div><a class="font-14px" href="admin_user.html" title="">מנהל</a></div>
+                                                <div>כיתה 1</div>
+                                                <div>dani@gmail.com</div>
+                                                <div>052 5236567</div>
+                                                <div>5 ימים 4 שעות</div>
+                                                <div>
+                                                    <a class="font-14px" href="#">הודעה</a>
+                                                    <a class="font-14px" href="admin_user_edit.html">עריכה</a>
+                                                    <a class="font-14px" href="#">מחיקה</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div><a class="font-14px" href="#" title="">אריאל גד</a></div>
+                                                <div><a class="font-14px" href="admin_user.html" title="">מורה עורך</a></div>
+                                                <div>כיתה 2, כיתה 3…</div>
+                                                <div>ariel@gmail.com</div>
+                                                <div>052 5236567</div>
+                                                <div>5 דקות</div>
+                                                <div>
+                                                    <a class="font-14px" href="#">הודעה</a>
+                                                    <a class="font-14px" href="admin_user_edit.html">עריכה</a>
+                                                    <a class="font-14px" href="#">מחיקה</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div><a class="font-14px" href="#" title="">יוזף גבע</a></div>
+                                                <div><a class="font-14px" href="admin_user.html" title="">תלמיד</a></div>
+                                                <div> כיתה 4</div>
+                                                <div>dani@gmail.com</div>
+                                                <div>052 5236567</div>
+                                                <div>2 שניות</div>
+                                                <div>
+                                                    <a class="font-14px" href="#">הודעה</a>
+                                                    <a class="font-14px" href="admin_user_edit.html">עריכה</a>
+                                                    <a class="font-14px" href="#">מחיקה</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div><a class="font-14px" href="#" title="">שני בראל</a></div>
+                                                <div><a class="font-14px" href="admin_user.html" title="">מנהל</a></div>
+                                                <div>כיתה 3</div>
+                                                <div>ariel@gmail.com</div>
+                                                <div>052 5236567</div>
+                                                <div>5 ימים 4 שעות</div>
+                                                <div>
+                                                    <a class="font-14px" href="#">הודעה</a>
+                                                    <a class="font-14px" href="admin_user_edit.html">עריכה</a>
+                                                    <a class="font-14px" href="#">מחיקה</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div><a class="font-14px" href="#" title="">יפעת מאירי </a></div>
+                                                <div><a class="font-14px" href="admin_user.html" title="">מורה</a></div>
+                                                <div>כיתה 4</div>
+                                                <div>dani@gmail.com</div>
+                                                <div>052 5236567</div>
+                                                <div>5 דקות</div>
+                                                <div>
+                                                    <a class="font-14px" href="#">הודעה</a>
+                                                    <a class="font-14px" href="admin_user_edit.html">עריכה</a>
+                                                    <a class="font-14px" href="#">מחיקה</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div><a class="font-14px" href="#" title="">דני יוסף</a></div>
+                                                <div><a class="font-14px" href="admin_user.html" title="">תלמיד</a></div>
+                                                <div class="not_associated">לא משויך</div>
+                                                <div>ariel@gmail.com</div>
+                                                <div>052 5236567</div>
+                                                <div>2 שניות</div>
+                                                <div>
+                                                    <a class="font-14px" href="#">הודעה</a>
+                                                    <a class="font-14px" href="admin_user_edit.html">עריכה</a>
+                                                    <a class="font-14px" href="#">מחיקה</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div><a class="font-14px" href="#" title="">אריאל גד</a></div>
+                                                <div><a class="font-14px" href="admin_user.html" title="">מנהל</a></div>
+                                                <div>כיתה 1</div>
+                                                <div>dani@gmail.com</div>
+                                                <div>052 5236567</div>
+                                                <div>5 ימים 4 שעות</div>
+                                                <div>
+                                                    <a class="font-14px" href="#">הודעה</a>
+                                                    <a class="font-14px" href="admin_user_edit.html">עריכה</a>
+                                                    <a class="font-14px" href="#">מחיקה</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div><a class="font-14px" href="#" title="">יוזף גבע</a></div>
+                                                <div><a class="font-14px" href="admin_user.html" title="">מורה</a></div>
+                                                <div>כיתה 2</div>
+                                                <div>ariel@gmail.com</div>
+                                                <div>052 5236567</div>
+                                                <div>5 דקות</div>
+                                                <div>
+                                                    <a class="font-14px" href="#">הודעה</a>
+                                                    <a class="font-14px" href="admin_user_edit.html">עריכה</a>
+                                                    <a class="font-14px" href="#">מחיקה</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div><a class="font-14px" href="#" title="">שני בראל</a></div>
+                                                <div><a class="font-14px" href="admin_user.html" title="">תלמיד</a></div>
+                                                <div>כיתה 3</div>
+                                                <div>dani@gmail.com</div>
+                                                <div>052 5236567</div>
+                                                <div>2 שניות</div>
+                                                <div>
+                                                    <a class="font-14px" href="#">הודעה</a>
+                                                    <a class="font-14px" href="admin_user_edit.html">עריכה</a>
+                                                    <a class="font-14px" href="#">מחיקה</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div><a class="font-14px" href="#" title="">יפעת מאירי</a></div>
+                                                <div><a class="font-14px" href="admin_user.html" title="">מנהל</a></div>
+                                                <div>כיתה 4</div>
+                                                <div>ariel@gmail.com</div>
+                                                <div>052 5236567</div>
+                                                <div>5 ימים 4 שעות</div>
+                                                <div>
+                                                    <a class="font-14px" href="#">הודעה</a>
+                                                    <a class="font-14px" href="admin_user_edit.html">עריכה</a>
+                                                    <a class="font-14px" href="#">מחיקה</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div><a class="font-14px" href="#" title="">דני יוסף</a></div>
+                                                <div><a class="font-14px" href="admin_user.html" title="">מורה</a></div>
+                                                <div>לא משויך</div>
+                                                <div>dani@gmail.com</div>
+                                                <div>052 5236567</div>
+                                                <div>5 דקות</div>
+                                                <div>
+                                                    <a class="font-14px" href="#">הודעה</a>
+                                                    <a class="font-14px" href="admin_user_edit.html">עריכה</a>
+                                                    <a class="font-14px" href="#">מחיקה</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div><a class="font-14px" href="#" title="">אריאל גד</a></div>
+                                                <div><a class="font-14px" href="admin_user.html" title="">תלמיד</a></div>
+                                                <div>כיתה 1</div>
+                                                <div>ariel@gmail.com</div>
+                                                <div>052 5236567</div>
+                                                <div>2 שניות</div>
+                                                <div>
+                                                    <a class="font-14px" href="#">הודעה</a>
+                                                    <a class="font-14px" href="admin_user_edit.html">עריכה</a>
+                                                    <a class="font-14px" href="#">מחיקה</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div><a class="font-14px" href="#" title="">יוזף גבע</a></div>
+                                                <div><a class="font-14px" href="admin_user.html" title="">תלמיד</a></div>
+                                                <div>כיתה 2</div>
+                                                <div>dani@gmail.com</div>
+                                                <div>052 5236567</div>
+                                                <div>5 דקות</div>
+                                                <div>
+                                                    <a class="font-14px" href="#">הודעה</a>
+                                                    <a class="font-14px" href="admin_user_edit.html">עריכה</a>
+                                                    <a class="font-14px" href="#">מחיקה</a>
+                                                </div>
+                                            </li>                                                                 
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="foot d-flex align-items-center justify-content-between">
+                    <div class="foot_rht">
+                        <p>כל הזכויות שמורות © ממשק טכנולוגיות לימודיות בע מ</p>
+                    </div>
+                    <div class="foot_mid">
+                        <a href="#">פרטיות.</a> <a href="#"> תקנון שימוש</a>
+                    </div>
+                    <div class="foot_lft">
+                        <p>מדריך שימוש במערכת</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+         <!-- Modal -->
+       <div class="modal fade " id="addtask1" aria-modal="true" >
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <a href="javascript:void(0)" data-dismiss="modal"><img src=" image/close.svg" alt="close"></a>
+                    <div class="adding_res">
+                        <h2> הוספת משתמשים ממסמך</h2>
+                        <div class="text-center" style="margin-top: 20px;margin-bottom: 10px">
+                            <img src="image/ppi.png" alt="">
+                        </div>
+                        <p>הורידו קובץ תבנית ומלאו ע”פ ההנחיות בקובץ</p>
+                        <div class="link_strip d-flex align-items-center justify-content-between " style="margin-bottom:20px;">
+                            <a href="javascript:void(0)" class="copy_link">
+                                <span>
+                                    <img src=" image/file-download.svg" alt="link">
+                                </span>
+                               תבנית להורדה
+                            </a>
+                        </div>      
+                        <p>העלו את קובץ המשתמשים שיצרתם</p>                  
+                        <div class="link_strip d-flex align-items-center justify-content-between">
+                            <a href="javascript:void(0)" class="copy_link">
+                                <span>
+                                    <img src=" image/log-out.svg" alt="link">
+                                </span>בחירת כקובץ</a>
+                            <div class="input-group">
+                                <span class="input-group-btn">
+                                    <label class="btn-file" for="multiple_input_group">
+                                        <div class="input required"><input id="multiple_input_group" type="file" multiple></div> 
+                                    </label>
+                                </span>
+                                <span class="file-input-label"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="grade_btn d-flex align-items-center justify-content-end" style="margin-top:30px;">
+                            <button type="button" class="plan_btn">ביטול</button>
+                            <button type="button" class="blue_btn">הוספת משתמשים</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Modal -->
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src=" js/bootstrap.min.js"></script>
+        <script src=" js/owl.carousel.min.js"></script>
+        <script src=" js/jquery.matchHeight-min.js"></script>
+        <script src=" js/custom.js"></script>
+        <script>
+            /* Match title height */
+            function MatchHeight() {
+                $('.match').matchHeight({});
+            }
+            $(document).ready(function () {
+                MatchHeight();
+            });
+            
+             $(document).on('change', '.btn-file :file', function() {
+                var input = $(this),
+                    numFiles = input.get(0).files ? input.get(0).files.length : 1,
+                    label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
+                input.trigger('fileselect', [numFiles, label]);
+            });
+
+            $(document).ready( function() {
+                $('.btn-file :file').on('fileselect', function(event, numFiles, label) {
+                    console.log("teste");
+                    var input_label = $(this).closest('.input-group').find('.file-input-label'),
+                        log = numFiles > 1 ? numFiles + ' files selected' : label;
+
+                    if( input_label.length ) {
+                        input_label.text(log);
+                    } else {
+                        if( log ) alert(log);
+                    }
+                });
+            });
+            
+        </script>
+    </body>
+</html>

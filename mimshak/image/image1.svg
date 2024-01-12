@@ -1,0 +1,97 @@
+<svg width="209" height="222" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter x="-26.3%" y="-18.4%" width="152.6%" height="146%" filterUnits="objectBoundingBox" id="a">
+            <feOffset dy="8" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-74.5%" y="-273.4%" width="249%" height="865.6%" filterUnits="objectBoundingBox" id="c">
+            <feOffset dy="7" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-61.1%" y="-273.4%" width="222.2%" height="865.6%" filterUnits="objectBoundingBox" id="e">
+            <feOffset dy="7" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-101.8%" y="-273.4%" width="303.7%" height="865.6%" filterUnits="objectBoundingBox" id="g">
+            <feOffset dy="7" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-25%" y="-22.9%" width="150.1%" height="162.5%" filterUnits="objectBoundingBox" id="j">
+            <feOffset dy="6" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <rect id="b" x="19" y="0" width="152" height="174" rx="11.2"/>
+        <rect id="d" x="7.218" y="3.669" width="32.881" height="6.4" rx="3.2"/>
+        <rect id="f" x="0" y="22.538" width="40.099" height="6.4" rx="3.2"/>
+        <rect id="h" x="16.04" y="41.49" width="24.059" height="6.4" rx="3.2"/>
+        <rect id="i" x="0" y="0" width="89.822" height="72" rx="8.064"/>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="70.097%" id="l">
+            <stop stop-color="#FFF" offset="0%"/>
+            <stop stop-color="#FFF" stop-opacity="0" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g opacity=".7" transform="translate(13.216 16)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="#FFF" xlink:href="#b"/>
+        </g>
+        <path d="M109.855 100c-19.267 0-34.886-15.58-34.886-34.8s15.619-34.8 34.886-34.8c19.267 0 34.886 15.58 34.886 34.8s-15.62 34.8-34.886 34.8zm0-3.681c17.229 0 31.196-13.932 31.196-31.119 0-17.187-13.967-31.119-31.196-31.119-17.23 0-31.196 13.932-31.196 31.119 0 17.187 13.967 31.119 31.196 31.119z" fill="#DCD5C9" opacity=".43"/>
+        <path d="M77 52.373a1.84 1.84 0 0 1 2.376-1.055 1.833 1.833 0 0 1 1.057 2.37c-6.152 15.988 1.853 33.924 17.88 40.06 16.028 6.138 34.009-1.848 40.161-17.836 6.153-15.988-1.853-33.924-17.88-40.06a31.124 31.124 0 0 0-9.529-2.028 1.836 1.836 0 0 1-1.74-1.926 1.837 1.837 0 0 1 1.931-1.737 34.81 34.81 0 0 1 10.655 2.266c17.924 6.863 26.876 26.92 19.996 44.8-6.88 17.88-26.987 26.81-44.91 19.946C79.072 90.31 70.12 70.253 77 52.373z" fill="#FFAE00" opacity=".7"/>
+        <text opacity=".2" font-family="Assistant-Bold, Assistant" font-size="16" font-weight="bold" fill="#000" transform="translate(13.216 16)">
+                        <tspan x="87.945" y="54.268">AI</tspan>
+                    </text>
+        <g opacity=".1">
+            <g transform="translate(155.167 112)">
+                <ellipse fill="#3A4A66" cx="7.957" cy="7.89" rx="7.957" ry="7.89"/>
+                <path d="M11.535 8.532c-.598 1.353-1.999 2.227-3.569 2.227-1.603 0-3.012-.879-3.59-2.238a.453.453 0 0 1 .252-.596.467.467 0 0 1 .61.247c.433 1.017 1.503 1.674 2.728 1.674 1.197 0 2.262-.658 2.712-1.676a.47.47 0 0 1 .614-.238c.236.1.346.37.243.6z" fill="#FFF"/>
+            </g>
+            <g fill="#000" transform="translate(109.454 112)">
+                <use filter="url(#c)" xlink:href="#d"/>
+                <use xlink:href="#d"/>
+            </g>
+            <g fill="#000" transform="translate(109.454 112)">
+                <use filter="url(#e)" xlink:href="#f"/>
+                <use xlink:href="#f"/>
+            </g>
+            <g fill="#000" transform="translate(109.454 112)">
+                <use filter="url(#g)" xlink:href="#h"/>
+                <use xlink:href="#h"/>
+            </g>
+            <g transform="translate(155.167 130.869)">
+                <ellipse fill="#3A4A66" cx="7.957" cy="7.89" rx="7.957" ry="7.89"/>
+                <path d="M11.535 8.532c-.598 1.353-1.999 2.227-3.569 2.227-1.603 0-3.012-.879-3.59-2.238a.453.453 0 0 1 .252-.596.467.467 0 0 1 .61.247c.433 1.017 1.503 1.674 2.728 1.674 1.197 0 2.262-.658 2.712-1.676a.47.47 0 0 1 .614-.238c.236.1.346.37.243.6z" fill="#FFF"/>
+            </g>
+            <g transform="translate(155.167 149.82)">
+                <ellipse fill="#3A4A66" cx="7.957" cy="7.89" rx="7.957" ry="7.89"/>
+                <path d="M11.535 8.532c-.598 1.353-1.999 2.227-3.569 2.227-1.603 0-3.012-.879-3.59-2.238a.453.453 0 0 1 .252-.596.467.467 0 0 1 .61.247c.433 1.017 1.503 1.674 2.728 1.674 1.197 0 2.262-.658 2.712-1.676a.47.47 0 0 1 .614-.238c.236.1.346.37.243.6z" fill="#FFF"/>
+            </g>
+        </g>
+        <g transform="translate(13.216 82.4)">
+            <mask id="k" fill="#fff">
+                <use xlink:href="#i"/>
+            </mask>
+            <g opacity=".6">
+                <use fill="#000" filter="url(#j)" xlink:href="#i"/>
+                <use fill="#FFAE00" xlink:href="#i"/>
+            </g>
+            <g mask="url(#k)">
+                <path d="M-35.698 56.653c2.806 9.667 5.102 12.465 6.888 8.395 2.679-6.105 7.27-12.592 13.777-12.592 6.505 0 8.419 9.921 11.863 6.487C.274 55.508 1.805 47.877 9.458 47.877c7.654 0 9.567 9.54 14.925 4.579 5.357-4.961 2.679-22.896 9.567-24.422 6.888-1.526 8.419 16.027 13.394 16.027s4.664-22.62 11.098-21.75c6.434.87 5.74 13.736 8.801 13.736 3.062 0 3.824-10.022 8.037-10.303 4.213-.28 7.175 12.235 9.95 13.356 1.849.748 3.38-1.033 4.592-5.342" stroke="#E6FFF3" stroke-width=".576"/>
+                <path d="M0 34.162c2.806 9.61 5.102 12.391 6.888 8.345 2.68-6.069 7.271-12.517 13.777-12.517 6.506 0 8.419 9.862 11.863 6.448 3.444-3.413 4.975-11 12.629-11 7.653 0 9.567 9.483 14.924 4.552 5.358-4.931 2.68-22.759 9.567-24.276 6.889-1.517 8.42 15.931 13.394 15.931 4.975 0 4.664-22.485 11.098-21.62 6.434.864 5.74 13.655 8.802 13.655 3.061 0 3.823-9.963 8.036-10.242 4.213-.278 7.176 12.161 9.95 13.276 1.85.743 3.38-1.027 4.592-5.31v38.31H0V34.162z" fill="url(#l)" opacity=".6" transform="translate(-35.698 22.286)"/>
+            </g>
+            <text opacity=".7" mask="url(#k)" font-family="Assistant-Bold, Assistant" font-size="11.52" font-weight="bold" fill="#FFF">
+                            <tspan x="7.216" y="14.868">12%</tspan>
+                        </text>
+            <g opacity=".8" mask="url(#k)" fill="#FFF">
+                <g transform="translate(31.668 4.571)">
+                    <ellipse stroke="#FFF" stroke-width=".64" fill-opacity=".3" cx="5.758" cy="5.714" rx="5.758" ry="5.714"/>
+                    <path d="M8.155 7.088c-.426.993-1.424 1.634-2.542 1.634-1.142 0-2.146-.645-2.557-1.642a.336.336 0 0 1 .307-.463c.13 0 .254.077.307.206.308.747 1.07 1.229 1.943 1.229.853 0 1.61-.483 1.931-1.23a.332.332 0 0 1 .437-.174c.169.073.247.27.174.44z"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
